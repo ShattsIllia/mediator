@@ -1,3 +1,3 @@
 # mediator
 Used Mediator pattern 
-https://shattsillia.github.io/mediator/index.html
+Link to open https://shattsillia.github.io/mediator/index.html
