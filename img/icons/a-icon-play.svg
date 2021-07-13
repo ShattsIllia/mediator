@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
+    <title>0010E2E7-A139-478E-B2F0-32ECF72AE09C</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Kit-module-8" transform="translate(-95.000000, -511.000000)">
+            <g id="atoms/icon/a-icon-play" transform="translate(95.000000, 511.000000)">
+                <g id="play-button">
+                    <circle id="Oval" fill-opacity="0.7" fill="#4D4949" fill-rule="nonzero" cx="36" cy="36" r="36"></circle>
+                    <path d="M30.7302457,24.9559613 L30.7302457,48.5 L32.2743021,48.5 L47.3916431,36.5263761 L30.7302457,24.9559613 Z" id="Rectangle" stroke="#FFFFFF" fill="#FFFFFF"></path>
+                    <path d="M50.3224846,35.1965235 L30.4032794,21.263714 C29.7840295,20.7962713 28.1326964,20.7962713 28,22.5604907 L28,50.4261096 C28.1474405,52.190329 29.8282616,52.2204866 30.4032794,51.7228863 L50.3224846,37.7900768 C50.8385262,37.473422 51.5462404,36.1766454 50.3224846,35.1965235 Z M31.0815055,47.4555864 L31.0815055,25.5310139 L46.7249375,36.4933001 L31.0815055,47.4555864 L31.0815055,47.4555864 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

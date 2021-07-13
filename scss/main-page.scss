@@ -1,0 +1,136 @@
+@import "./resset.scss";
+@import "./styles.scss";
+.quote {
+    position: relative;
+}
+
+.quote::before {
+    content: '“';
+    position: absolute;
+    height: 45px;
+    width: 13px;
+    color: #FFFFFF;
+    font-family: "Hind Siliguri";
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 45px;
+    left: -17px;
+    top: -22px;
+}
+
+.display-block {
+    display: block;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto;
+    .navbar {
+        padding: 2.3rem 0 0 0;
+    }
+    .nav__title__wrapper {
+        padding: 0;
+    }
+    &__nav__title {
+        @include logo-text;
+    }
+    .nav-link {
+        @include nav-links;
+    }
+    .nav-link:hover {
+        text-shadow: 0 0 .01px black, 0 0 .01px black;
+        text-decoration: underline;
+    }
+    &__title {
+        @include main-title;
+        margin-top: 9.7rem;
+    }
+    &__paragraph {
+        @include main-paragraph;
+        margin-top: 1.8rem;
+        text-align: left;
+    }
+    &__form {
+        margin-top: 1.1rem;
+        margin-bottom: 20.6rem;
+    }
+    &__button {
+        @include style-for-buttons;
+        &_light {
+            @include light-buttons;
+            margin-left: 2.5rem;
+            width: 12.5rem;
+        }
+        &_black {
+            @include dark-buttons;
+        }
+        &:hover {
+            @include style-for-hover-buttons;
+        }
+    }
+}
+
+//styles for HW_09
+.menu {
+    display: flex;
+    @include main-paragraph;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    &__item {
+        width: 16rem;
+        margin-top: 1rem;
+        border: 1px solid lightgray;
+        padding: 2rem 0;
+        margin-left: 1rem;
+        max-height: 88px;
+    }
+    &__item:hover {
+        -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    }
+    &__item:active {
+        -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    }
+    &-wrapper {
+        margin-top: 10rem;
+    }
+}
+
+.horizontal {
+    width: 100%;
+}
+
+.vertical {
+    flex-direction: column;
+    align-content: flex-end;
+    margin-bottom: 10rem;
+}
+
+.article {
+    margin-top: -48rem;
+    margin-bottom: 20rem;
+    @include main-paragraph;
+    display: flex;
+    justify-content: center;
+    padding: 0 36rem 0 5rem;
+}
+
+@media (max-width: 991px) {
+    .header__main {
+        margin: 0;
+    }
+    .footer__logo {
+        margin-left: 0rem;
+    }
+    .header .navbar {
+        padding: .5rem 1rem;
+    }
+}

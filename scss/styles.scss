@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+$main-font: "Hind Siliguri";
+$main-color: #4D4949;
+$second-color: #4D4C49;
+$white-color: #FFFFFF;
+$metrics-color: #818181;
+$contacts-background: #F8F8F8;
+$defolt-inputs-color: #DCDCDC;
+$background-for-posts: #FCF6F6;
+@mixin logo-text {
+    font: {
+        family: $main-font;
+        size: 1.7rem;
+        weight: bold;
+    }
+    color: #4D4C49;
+    line-height: 2.8rem;
+}
+
+@mixin main-title {
+    font: {
+        family: $main-font;
+        size: 2.8rem;
+        weight: 600;
+    }
+    color: $main-color;
+    line-height: 3.7rem;
+}
+
+@mixin main-subtitle {
+    font: {
+        family: $main-font;
+        size: 2.4rem;
+        weight: 600;
+    }
+    color: $main-color;
+    line-height: 3.9rem;
+}
+
+@mixin contact-steps-subtitle {
+    font: {
+        family: $main-font;
+        size: 1.5rem;
+        weight: bold;
+    }
+    color: $main-color;
+    line-height: 2.6rem;
+}
+
+@mixin posts-subtitle {
+    font: {
+        family: $main-font;
+        size: 2.0rem;
+        weight: 500;
+    }
+    color: $main-color;
+    line-height: 3.2rem;
+}
+
+@mixin post-title {
+    font: {
+        family: $main-font;
+        size: 2.0rem;
+        weight: 500;
+    }
+    color: $main-color;
+    line-height: 2.6rem;
+}
+
+@mixin portfolio-subtitle {
+    font: {
+        family: $main-font;
+        size: 2.0rem;
+        weight: bold;
+    }
+    color: $white-color;
+}
+
+@mixin portfolio-text {
+    font: {
+        family: $main-font;
+        size: 1.5rem;
+        weight: 300;
+    }
+    color: $white-color;
+}
+
+@mixin posts-paragraph {
+    font: {
+        family: $main-font;
+        size: 1.5rem;
+    }
+    color: $main-color;
+    line-height: 2.4rem;
+}
+
+@mixin posts-metrics {
+    font: {
+        family: $main-font;
+        size: 1.5rem;
+    }
+    color: $metrics-color;
+    line-height: 2.5rem;
+}
+
+@mixin main-paragraph {
+    font: {
+        family: $main-font;
+        size: 1.7rem;
+    }
+    color: $main-color;
+    line-height: 2.6rem;
+}
+
+@mixin nav-items {
+    font: {
+        family: $main-font;
+        size: 1.5rem;
+    }
+    color: $main-color;
+    line-height: 2.5rem;
+}
+
+@mixin nav-links {
+    font: {
+        family: $main-font;
+        size: 1.5rem;
+    }
+    color: $main-color !important;
+    line-height: 2.5rem;
+}
+
+@mixin author-names {
+    font: {
+        family: $main-font;
+        size: 1.7rem;
+        weight: 500;
+    }
+    color: $main-color;
+    line-height: 2.8rem;
+}
+
+@mixin testimonials__card__text {
+    font: {
+        family: $main-font;
+        size: 1.7rem;
+    }
+    color: $white-color;
+    line-height: 2.6rem;
+}
+
+@mixin style-for-buttons {
+    font: {
+        family: $main-font;
+        size: 1.5rem;
+    }
+    color: $main-color;
+    line-height: 2.5rem;
+    height: 4.5rem;
+    width: 10rem;
+    border-radius: 5px;
+}
+
+@mixin style-for-hover-buttons {
+    border-color: #393737;
+    background-color: #393737;
+    color: $white-color;
+}
+
+@mixin dark-buttons {
+    border: 1px solid $second-color;
+    border-radius: 5px;
+    color: $white-color;
+    background-color: $main-color;
+}
+
+@mixin light-buttons {
+    border: 1px solid $main-color;
+    border-radius: 5px;
+    color: $main-color;
+}
+
+@mixin style-for-contorls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 4.5rem;
+    width: 4.5rem;
+    border: 1px solid $main-color;
+    border-radius: 5px;
+    background-color: $white-color;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1160px;
+        padding: 0;
+    }
+}
+
+.oval {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #818181;
+}
+
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a {
+    color: $main-color;
+}
+
+a:hover {
+    color: #393737;
+}
+
+.footer {
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    width: 100%;
+    background: $contacts-background;
+    &__line {
+        height: 1px;
+        width: 100%;
+        background-color: #DDDDDD;
+    }
+    &__content {
+        padding: 2rem 0 2rem 0;
+    }
+    &__icons {
+        gap: 2.5rem;
+    }
+    &__logo {
+        @include logo-text;
+        margin-left: 5.5rem;
+    }
+    &__copyright {
+        @include nav-items;
+        color: #333333;
+    }
+}

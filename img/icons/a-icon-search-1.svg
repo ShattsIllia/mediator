@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
+    <title>603D0A14-939E-4539-825B-11774AA96713</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Kit-module-8" transform="translate(-1064.000000, -566.000000)">
+            <g id="atoms/icon/a-icon-search-1" transform="translate(1064.000000, 566.000000)">
+                <g id="magnifying-glass" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M12.4755081,10.9730795 C13.312058,9.83068926 13.8124382,8.42747331 13.8124382,6.90627576 C13.8124382,3.09828631 10.7141699,0 6.9062026,0 C3.09823531,0 0,3.09828631 0,6.90627576 C0,10.7142652 3.09826828,13.8125515 6.90623557,13.8125515 C8.42742427,13.8125515 9.83076395,13.3121025 10.9731475,12.4755477 L15.4975735,17 L17,15.4975648 C17,15.4975318 12.4755081,10.9730795 12.4755081,10.9730795 L12.4755081,10.9730795 Z M6.90623557,11.6875309 C4.26970195,11.6875309 2.12500824,9.54282472 2.12500824,6.90627576 C2.12500824,4.2697268 4.26970195,2.12502061 6.90623557,2.12502061 C9.54276919,2.12502061 11.6874629,4.2697268 11.6874629,6.90627576 C11.6874629,9.54282472 9.54273622,11.6875309 6.90623557,11.6875309 Z" id="Shape"></path>
+                </g>
+                <line x1="7" y1="4" x2="7" y2="10" id="Line" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="square"></line>
+                <line x1="7" y1="4" x2="7" y2="10" id="Line" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="square" transform="translate(7.000000, 7.000000) rotate(90.000000) translate(-7.000000, -7.000000) "></line>
+            </g>
+        </g>
+    </g>
+</svg>
