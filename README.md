@@ -1,0 +1,2 @@
+# mediator
+Used Mediator pattern 
